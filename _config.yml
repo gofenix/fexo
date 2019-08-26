@@ -1,29 +1,29 @@
 # Blog info
-blog_name: Forsigner
+blog_name: 不只是码代码的Lucas
 slogan: Find the bug of the world
-url: http://www.forsigner.com
+url: https://zhenfeng-zhu.github.io
 
 # Set avatar (Absolute url and relative url)
-avatar: /images/avatar.jpg
+avatar: /images/Lark.jpeg
 
 # Set favicon
 favicon: /favicon.ico
 
 # For seo
-keywords: forsigner,前端,设计,Hexo主题,前端开发,用户体验,设计,frontend,design,nodejs,JavaScript
+keywords: golang,go,python,后端,工程师
 
 home_nav:
   - name: Blog
     url: /archives
     target_blank: false #不在新页面打开
-  - name: Project
-    url: /project/
-    target_blank: true #在新页面打开
+  # - name: Project
+  #   url: /project/
+  #   target_blank: true #在新页面打开
   - name: Github
-    url: https://github.com/forsigner
+    url: https://github.com/zhenfeng-zhu
     target_blank: true
-  - name: Twitter
-    url: https://twitter.com/forsigner
+  - name: 知乎
+    url: https://www.zhihu.com/people/zhu-zhen-feng-96/activities
     target_blank: true
 
 # config page nav
@@ -43,9 +43,9 @@ page_nav:
   - name: 关于
     url: /about/
     target_blank: false
-  - name: RSS
-    url: /atom.xml
-    target_blank: true # 在新页面打开
+  # - name: RSS
+  #   url: /atom.xml
+  #   target_blank: true # 在新页面打开
   - name: 搜索
     url: /search/
     target_blank: false # 在新页面打开
@@ -67,7 +67,7 @@ search_slogan:
 
 link_slogan:
   isShow: true # true|fase
-  text: 交换友链可以邮件 forsigner@gmail.com
+  text: 交换友链可以邮件 zhuzhenfeng1993@gmail.com
 
 
 # set backtop show or hide
@@ -83,7 +83,7 @@ backtop:
 donation:
   show: true
   btn_text: 支持一下
-  tip: 扫一扫，支持forsigner
+  tip: 扫一扫，支持Lucas
   items:
     - type: 微信
       text: 微信扫一扫
@@ -145,11 +145,11 @@ changyan:
 # gitalk评论组件，把下面的配置换成你的，官方文档: https://gitalk.github.io/
 gitalk:
   enable: true # 如果使用 gitalk，请设置改之为true
-  clientID: 277317290454635afa73
-  clientSecret: 78223c859304da5e8d71bfce136d436c6ff95c37
+  clientID: 31d9b972c48ceac187a3
+  clientSecret: 6718039f5fdefff7c4a9991dcd77b9b3eefc235d
   repo: blog-comment
-  owner: forsigner
-  admin: forsigner
+  owner: zhenfeng-zhu
+  admin: zhenfeng-zhu
 
 
 # gitment comment service
@@ -194,26 +194,21 @@ about:
   - type: me
     icon: icon-user
     text_value:
-    - "Scut，1991，Spring."
+    - "Lucas."
     - "喜欢设计，擅长编程，喜欢睡懒觉."
-    - "前端开发工程师，常用 HTML / CSS / JavaScript."
+    - "后端开发工程师，常用 Go / Python ."
   - type: Github
     icon: icon-github
     text_key: Github
-    text_value: "@forsigner"
-    text_value_url: https://github.com/forsigner
-  - type: weibo
-    icon: icon-weibo
-    text_key: 微博
-    text_value: "@forsigner"
-    text_value_url: http://weibo.com/u/1847075964
+    text_value: "@zhenfeng-zhu"
+    text_value_url: https://github.com/zhenfeng-zhu
   - type: mail
     icon: icon-mail
     text_key: Gmail
-    text_value: "forsigner@gmail.com"
+    text_value: "zhuzhenfeng1993@gmail.com"
   - type: location
     icon: icon-location
-    text_value: 珠海
+    text_value: 深圳
 
 link:
   - name: 织网
