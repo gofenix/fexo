@@ -86,17 +86,17 @@ donation:
   tip: 扫一扫，支持Lucas
   items:
     - type: 微信
-      text: 微信扫一扫
+      text: 请我喝杯Coffee吧~
       imgUrl: /images/qr-wechat.png
-    - type: 支付宝
-      text: 支付宝扫一扫
-      imgUrl: /images/qr-alipay.png
+    # - type: 支付宝
+    #   text: 支付宝扫一扫
+    #   imgUrl: /images/qr-alipay.png
 
 
 
 
 post:
-  header_align: CENTER # LEFT|CENTER
+  header_align: LEFT # LEFT|CENTER
   showToc: true # true|false
   showComments: true
   open_in_new_window: false
@@ -113,9 +113,9 @@ personal_style: /css/personal-style.css
 home_background_scheme: light # dark、light
 
 # custom font-family 暂时只支持这3种英文字体，你可以完全自定义字体(看文档)
-blog_name_font_familiy: calligraffittiregular
+# blog_name_font_familiy: calligraffittiregular
 # blog_name_font_familiy: Lobster-Regular
-# blog_name_font_familiy: PoiretOne-Regular
+blog_name_font_familiy: PoiretOne-Regular
 
 init_page_content: HOME_NAV  # HOME_NAV | POST
 
